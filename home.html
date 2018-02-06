@@ -1,0 +1,89 @@
+<!-- I used https://www.w3schools.com/tags/ as a refrence for the html tags -->
+<!-- Doctype tag to tell whichever web page this is opened in exactly what how it should be read -->
+<!DOCTYPE html>
+<html>
+	<!-- I created examples of the html tags by using them in the examples -->
+	<head>
+		<!-- Setting charecters so that the browser doesn't have to look for or choose a different one -->
+		<meta charset="utf-8"/>
+		<!-- Settings for the table style for later -->
+		<link rel="stylesheet" type="css" href="http://students.washington.edu/dosanm/tinfo230/assign2/css/stylesheet.css">
+		<style>
+			table, th, td {
+    			border: 1px solid black;}
+		</style>
+		<title>Manpreet's Home Page</title>
+	</head>
+	<body>
+		<!--These are just examples of the html tags-->
+		<h1>Manpreet's Home Page</h1>
+		<!--This link sends user straight to the created table-->
+		If you want to go straight to a table of my favorite animals
+		<a href = "#animalTable"> click here.</a>
+		<p>This is a Paragrapgh.
+		<b>This is bold.</b>
+		<i>This is italic.</i>
+		<em>This is used to emphasize text.</em>
+		This is a...<br>line break.<br>
+		</p>
+		<hr>This adds a literal line in a break.<hr>
+		<strong>This defines important text.</strong><br>
+		<cite>This is used to cite books, movies, ect..</cite><br>
+		<dfn>dfn</dfn> is used like this to define a word.<br>
+		<address>This is for contact information of an author/owner of a document</address><br>
+		<!-- These are both of the different sets of types of lists -->
+		<h1>These are some links to some things that I like.</h1>
+		<ul>
+			<li><a href = "http://students.washington.edu/dosanm/tinfo230/assign2/cars/mercedes.html"> Mercedes Benz</a></li>
+			<li><a href = "http://students.washington.edu/dosanm/tinfo230/assign2/cars/tesla.html"> Tesla Motors</a></li>
+			<li><a href = "http://students.washington.edu/dosanm/tinfo230/assign2/Series/Anime.html"> Anime</a></li>
+			<li><a href = "http://students.washington.edu/dosanm/tinfo230/assign2/Series/tv.html"> Television Series</a></li>
+			<li><a href = "http://students.washington.edu/dosanm/tinfo230/assign2/movies&tv/Movies.html"> Movies</a></li>
+			<li><a href = "http://students.washington.edu/dosanm/tinfo230/assign2/movies&tv/Kylo.html"> Star Wars Kylo Ren</a></li>
+		</ul>
+		<br>
+		<ol> 
+			<li>This</li> <li>defines</li> <li>an</li> <li>ordered</li> <li>list</li>
+		</ol>
+		<br>
+		<h2>I put a picture of this tiger because tigers are my favorite animal. This is also an HTML heading example.</h2><br>
+		<!-- Linking a gif to a picture as a hyperlink -->
+		<a href = "http://78.media.tumblr.com/tumblr_ma8ybfgh4h1r4zr2vo1_r1_500.gif">
+		<img src="https://images.pexels.com/photos/386147/pexels-photo-386147.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" alt="Image name in case it doesn't work: Tiger"></a><br>
+		 <!-- Image taken from https://www.pexels.com/photo/animal-big-big-cat-carnivore-386147/ -->
+		<br>
+		<!-- This is where i made my table to show my animal interests -->
+		<table>
+			<tr>
+				<th>Type</th>
+				<th>Favorite Animal</th>
+			</tr>
+			<tr>
+				<th>Land</th>
+				<th>Tiger</th>
+			</tr>
+			<tr>
+				<th>Air</th>
+				<th>Peregrine Falcon</th>
+			</tr>
+			<tr>
+				<th>Sea</th>
+				<th>Killer Whale</th>
+			</tr>	
+		</table>
+		<a id="animalTable"></a>
+
+		<!-- This is a built form that takes a persons favotire type od animal and shows them an image -->
+		<p>Whats your favorite animal?</p>
+		<form action = "https://media1.tenor.com/images/5198aac8f04c105379617199e0b9665b/tenor.gif">
+		Name:<br>
+		<input type= "text" id="Name" value="">
+		<br>
+		Animal:<br>
+		<input type= "text" id="Animal" value="">
+		<br>
+		<input type= "submit" value="Submit">
+		</form>
+		<br><br><br>
+	</body>
+</html>
