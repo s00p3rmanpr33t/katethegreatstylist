@@ -1,2 +1,0 @@
-# katethegreatstylist
-Stylist
